@@ -1,29 +1,44 @@
-## **🍝 Bel Mangiare – Fábrica de pastas**
+## **🟠 Residencial Palermo**
 
-## **🎯 Tono general:** Artesanal, cercano, confiable. Enfocado en lo casero pero profesional. Ideal para clientes mayoristas que valoran el sabor de siempre.
+## **🎯 Tono general:** Moderno, luminoso, humano. Estilo más actual pero igual de cálido. Ideal para destacar paz, privacidad y atención personalizada.
 
-### **🎨 Paleta de colores:**
+### **🎨 Paleta de colores del logo (a aplicar similares a la página):**
 
-## |                     |                      |                |
-| :-----------------: | :------------------: | :------------: |
-|     **Elemento**    |       **Color**      | **Código HEX** |
-|    Azul del logo    |     Azul profundo    |    `#1C2D73`   |
-| Naranja del rodillo |    Naranja cálido    |    `#E87C26`   |
-|     Fondo neutro    | Crema claro / blanco |    `#FDFBF6`   |
-|   Texto secundario  |   Gris oscuro suave  |    `#444444`   |
+## |                  |                       |                |
+| :--------------: | :-------------------: | :------------: |
+|   **Elemento**   |       **Color**       | **Código HEX** |
+| Naranja del arco | Naranja mostaza suave |    `#E0A94E`   |
+|  Negro del logo  |      Negro suave      |    `#2E2E2E`   |
+|       Fondo      |     Blanco cálido     |    `#FFFCF8`   |
+|    Complemento   |       Gris claro      |    `#DADADA`   |
 
 ### **🔠 Tipografía sugerida:**
 
-## - **Títulos:** `Playfair Display` o `Merriweather` (clásico, elegante, con aire artesanal)
+- **Títulos:** `Quicksand`, `Nunito`, `DM Serif Display
 
-- **Texto cuerpo:** `Lato`, `Open Sans` o `Mulish` (limpia y fácil de leer)
+  `
 
-- **Botones / CTA:** en mayúsculas, con contraste fuerte sobre fondo claro
+- **Texto cuerpo:** `Poppins`, `Lato`, `Work Sans
+
+  `
+
+- **Botones / CTA:** contornos suaves con naranja como color de acción
+----------------------------------------------------------------------
 
 ### **📐 Detalles técnicos:**
 
-## - Bordes suaves, con esquinas ligeramente redondeadas (border-radius: 8px aprox.)
+## - Uso de mucho espacio en blanco (aire visual)
 
-- Íconos alimenticios en outline si se usan
+- Íconos con líneas curvas o ilustraciones minimalistas
 
-- Imágenes con bordes curvos o enmarcadas tipo catálogo
+- Secciones con alternancia entre fondo blanco y mostaza claro***
+
+## **📋 Recomendaciones generales para los tres sitios:**
+
+## - Todos los sitios deben ser **responsive** y con **velocidad optimizada**.
+
+- Evitar recargar de texto; usar frases cortas y llamados visuales.
+
+- Formularios de contacto visibles desde la primera pantalla.
+
+- Incluir botón de WhatsApp flotante, personalizado según la marca.PDF descargable o visualizable online con diseño coherente a la web.
