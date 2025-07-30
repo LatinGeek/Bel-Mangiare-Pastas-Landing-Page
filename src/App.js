@@ -430,88 +430,25 @@ function App() {
 
         <section id="clients" className="services">
           <div className="container">
-            <div className="services-header">
-              <h2 className="animate-on-scroll animate-item">Servicios que ofrecemos</h2>
-              <p className="services-intro animate-on-scroll animate-item">Ofrecemos una atención integral que abarca tanto el cuidado físico como emocional, respetando las particularidades de cada residente</p>
-            </div>
-            
-            <div className="services-grid animate-on-scroll">
-              <div className="service-card animate-item">
-                <div className="service-icon-container">
-                  <span className="service-icon">👩‍⚕️</span>
-                </div>
-                <h3>Enfermería y supervisión médica</h3>
-                <p>Atención profesional las 24 horas con personal especializado en geriatría y cuidados médicos.</p>
+            <div className="services-content">
+              <div className="services-text animate-on-scroll">
+                <h2 className="animate-item">Servicios que ofrecemos</h2>
+                <p className="services-intro animate-item">Ofrecemos una atención integral que abarca tanto el cuidado físico como emocional, respetando las particularidades de cada residente:</p>
+                <ul>
+                  <li><span className="service-icon">👩‍⚕️</span> Enfermería y supervisión médica</li>
+                  <li><span className="service-icon">🍴</span> Alimentación casera adaptada</li>
+                  <li><span className="service-icon">💊</span> Administración de medicación</li>
+                  <li><span className="service-icon">🧼</span> Higiene diaria y asistencia personalizada</li>
+                  <li><span className="service-icon">🎵</span> Musicoterapia y estimulación cognitiva</li>
+                  <li><span className="service-icon">🧘‍♀️</span> Fisioterapia y movilidad asistida</li>
+                  <li><span className="service-icon">📖</span> Actividades recreativas adaptadas</li>
+                  <li><span className="service-icon">🧠</span> Acompañamiento emocional y conversación activa</li>
+                  <li><span className="service-icon">📍</span> Contacto fluido con la familia</li>
+                </ul>
+                <p className="services-quote">"Cuidar con sensibilidad, ese es nuestro mayor valor."</p>
               </div>
-              
-              <div className="service-card animate-item">
-                <div className="service-icon-container">
-                  <span className="service-icon">🍴</span>
-                </div>
-                <h3>Alimentación casera adaptada</h3>
-                <p>Menús nutritivos y personalizados según las necesidades dietéticas de cada residente.</p>
-              </div>
-              
-              <div className="service-card animate-item">
-                <div className="service-icon-container">
-                  <span className="service-icon">💊</span>
-                </div>
-                <h3>Administración de medicación</h3>
-                <p>Control y administración segura de medicamentos con seguimiento profesional.</p>
-              </div>
-              
-              <div className="service-card animate-item">
-                <div className="service-icon-container">
-                  <span className="service-icon">🧼</span>
-                </div>
-                <h3>Higiene diaria y asistencia</h3>
-                <p>Cuidado personal completo con respeto a la dignidad y privacidad de cada persona.</p>
-              </div>
-              
-              <div className="service-card animate-item">
-                <div className="service-icon-container">
-                  <span className="service-icon">🎵</span>
-                </div>
-                <h3>Musicoterapia y estimulación</h3>
-                <p>Actividades cognitivas y terapia musical para mantener la mente activa y el bienestar emocional.</p>
-              </div>
-              
-              <div className="service-card animate-item">
-                <div className="service-icon-container">
-                  <span className="service-icon">🧘‍♀️</span>
-                </div>
-                <h3>Fisioterapia y movilidad</h3>
-                <p>Ejercicios adaptados y terapia física para mantener la movilidad y independencia.</p>
-              </div>
-              
-              <div className="service-card animate-item">
-                <div className="service-icon-container">
-                  <span className="service-icon">📖</span>
-                </div>
-                <h3>Actividades recreativas</h3>
-                <p>Programas de entretenimiento y socialización adaptados a los intereses de cada residente.</p>
-              </div>
-              
-              <div className="service-card animate-item">
-                <div className="service-icon-container">
-                  <span className="service-icon">🧠</span>
-                </div>
-                <h3>Acompañamiento emocional</h3>
-                <p>Apoyo psicológico y conversación activa para mantener el bienestar mental y social.</p>
-              </div>
-              
-              <div className="service-card animate-item">
-                <div className="service-icon-container">
-                  <span className="service-icon">📞</span>
-                </div>
-                <h3>Contacto fluido con la familia</h3>
-                <p>Comunicación constante y transparente con familiares sobre el cuidado y bienestar.</p>
-              </div>
-            </div>
-            
-            <div className="services-footer animate-on-scroll animate-item">
-              <div className="services-quote">
-                <p>"Cuidar con sensibilidad, ese es nuestro mayor valor."</p>
+              <div className="services-image">
+                <img src="/images/staff-providing-care.jpg" alt="Personal brindando cuidado profesional" />
               </div>
             </div>
           </div>
@@ -539,66 +476,31 @@ function App() {
 
         <section className="why-choose-us">
           <div className="container">
-            <div className="why-choose-us-header">
-              <h2 className="animate-on-scroll animate-item">¿Por qué elegirnos?</h2>
-              <h3 className="animate-on-scroll animate-item">Porque la calidad de vida también se construye con pequeños gestos.</h3>
-            </div>
-            
+            <h2 className="animate-on-scroll animate-item">¿Por qué elegirnos?</h2>
+            <h3 className="animate-on-scroll animate-item">Porque la calidad de vida también se construye con pequeños gestos.</h3>
             <div className="benefits-grid animate-on-scroll">
-              <div className="benefit-card animate-item">
-                <div className="benefit-icon-container">
-                  <span className="benefit-icon">🏡</span>
-                </div>
-                <h3>Entorno silencioso y armonioso</h3>
-                <p>Espacios diseñados para la tranquilidad, donde cada rincón respira paz y serenidad para el descanso pleno.</p>
+              <div className="benefit-item animate-item">
+                <span className="benefit-icon">✅</span>
+                <span>Entorno silencioso y armonioso</span>
               </div>
-              
-              <div className="benefit-card animate-item">
-                <div className="benefit-icon-container">
-                  <span className="benefit-icon">👥</span>
-                </div>
-                <h3>Atención cercana y con seguimiento</h3>
-                <p>Cuidado personalizado con seguimiento continuo de cada residente por nuestro equipo profesional.</p>
+              <div className="benefit-item animate-item">
+                <span className="benefit-icon">✅</span>
+                <span>Atención cercana y con seguimiento</span>
               </div>
-              
-              <div className="benefit-card animate-item">
-                <div className="benefit-icon-container">
-                  <span className="benefit-icon">🎯</span>
-                </div>
-                <h3>Plan de actividades suaves y adaptadas</h3>
-                <p>Programas diseñados específicamente para cada persona, respetando sus ritmos y preferencias individuales.</p>
+              <div className="benefit-item animate-item">
+                <span className="benefit-icon">✅</span>
+                <span>Plan de actividades suaves y adaptadas</span>
               </div>
-              
-              <div className="benefit-card animate-item">
-                <div className="benefit-icon-container">
-                  <span className="benefit-icon">💬</span>
-                </div>
-                <h3>Comunicación directa con la familia</h3>
-                <p>Mantenemos a las familias informadas con comunicación transparente y abierta sobre el bienestar de sus seres queridos.</p>
+              <div className="benefit-item animate-item">
+                <span className="benefit-icon">✅</span>
+                <span>Comunicación directa con la familia</span>
               </div>
-              
-              <div className="benefit-card animate-item">
-                <div className="benefit-icon-container">
-                  <span className="benefit-icon">🕒</span>
-                </div>
-                <h3>Flexibilidad en visitas y rutinas</h3>
-                <p>Horarios adaptables que respetan las necesidades familiares y los hábitos de cada residente.</p>
-              </div>
-              
-              <div className="benefit-card animate-item">
-                <div className="benefit-icon-container">
-                  <span className="benefit-icon">🛡️</span>
-                </div>
-                <h3>Seguridad las 24 horas</h3>
-                <p>Supervisión constante y protocolos de seguridad que garantizan tranquilidad total para residentes y familias.</p>
+              <div className="benefit-item animate-item">
+                <span className="benefit-icon">✅</span>
+                <span>Flexibilidad en visitas y rutinas</span>
               </div>
             </div>
-            
-            <div className="why-choose-us-footer animate-on-scroll animate-item">
-              <div className="tagline-card">
-                <p>"En Palermo, los días transcurren con calma, respeto y dignidad."</p>
-              </div>
-            </div>
+            <p className="tagline">"En Palermo, los días transcurren con calma, respeto y dignidad."</p>
           </div>
         </section>
 
@@ -634,7 +536,7 @@ function App() {
 
         <section id="contact" className="contact">
           <div className="contact-background">
-            <img src="/images/footer-background.png" alt="Contact Background" className="contact-bg-image" />
+            <img src="/images/facility-garden.jpg" alt="Contact Background" className="contact-bg-image" />
             <div className="contact-overlay"></div>
           </div>
           <div className="container">
@@ -643,190 +545,160 @@ function App() {
               <p className="contact-intro animate-item">Coordiná un recorrido personalizado y descubrí si este es el lugar adecuado para tu familiar.</p>
             </div>
             
-            <div className="contact-content-modern">
-              <div className="contact-info-section animate-on-scroll">
-                <div className="contact-info-cards">
-                  <div className="contact-card animate-item">
+            <div className="contact-content-centered">
+              <div className="contact-info-centered animate-on-scroll">
+                <div className="contact-info-grid">
+                  <div className="contact-item animate-item">
                     <div className="contact-icon">📍</div>
-                    <div className="contact-content">
-                      <h4>Dirección</h4>
-                      <p>Montevideo, Uruguay</p>
-                    </div>
+                    <h4>Dirección</h4>
+                    <p>Montevideo, Uruguay</p>
                   </div>
                   
-                  <div className="contact-card animate-item">
+                  <div className="contact-item animate-item">
                     <div className="contact-icon">📞</div>
-                    <div className="contact-content">
-                      <h4>Teléfono / WhatsApp</h4>
-                      <p>094 xxx xxx</p>
-                    </div>
+                    <h4>Teléfono / WhatsApp</h4>
+                    <p>094 xxx xxx</p>
                   </div>
                   
-                  <div className="contact-card animate-item">
+                  <div className="contact-item animate-item">
                     <div className="contact-icon">🕒</div>
-                    <div className="contact-content">
-                      <h4>Horarios</h4>
-                      <p>Lunes a viernes de 10 a 17 hs</p>
-                    </div>
+                    <h4>Horarios</h4>
+                    <p>Lunes a viernes de 10 a 17 hs</p>
                   </div>
                   
-                  <div className="contact-card animate-item">
+                  <div className="contact-item animate-item">
                     <div className="contact-icon">✉️</div>
-                    <div className="contact-content">
-                      <h4>Email</h4>
-                      <p>contacto@residencialpalermo.com</p>
-                    </div>
+                    <h4>Email</h4>
+                    <p>contacto@residencialpalermo.com</p>
                   </div>
                 </div>
               </div>
               
-              <div className="contact-form-section animate-on-scroll">
-                <div className="contact-form-container">
-                  <form className="contact-form" onSubmit={handleSubmit}>
-                    <div className="form-header">
-                      <h3>Coordiná tu visita</h3>
-                      <p>Completá el formulario y nos pondremos en contacto contigo</p>
+              <div className="contact-form-centered">
+                <form className="contact-form" onSubmit={handleSubmit}>
+                  <h3>Coordiná tu visita</h3>
+                  
+                  {submitStatus === 'success' && (
+                    <div className="form-message success">
+                      <span>✅ ¡Gracias! Tu solicitud fue enviada exitosamente. Te contactaremos pronto para coordinar la visita.</span>
                     </div>
-                    
-                    {submitStatus === 'success' && (
-                      <div className="form-message success">
-                        <span>✅ ¡Gracias! Tu solicitud fue enviada exitosamente. Te contactaremos pronto para coordinar la visita.</span>
-                      </div>
-                    )}
-                    
-                    {submitStatus === 'error' && (
-                      <div className="form-message error">
-                        <span>❌ Hubo un error al enviar tu solicitud. Por favor, intentá nuevamente.</span>
-                      </div>
-                    )}
-                    
-                    <div className="form-grid">
-                      <div className="form-group">
-                        <label>Tu nombre (familiar)</label>
-                        <input 
-                          type="text" 
-                          name="familyMemberName"
-                          placeholder="Escribe tu nombre completo" 
-                          value={formData.familyMemberName}
-                          onChange={handleInputChange}
-                          required 
-                        />
-                      </div>
-                      
-                      <div className="form-group">
-                        <label>Nombre del potencial residente</label>
-                        <input 
-                          type="text" 
-                          name="residentName"
-                          placeholder="Nombre completo del residente" 
-                          value={formData.residentName}
-                          onChange={handleInputChange}
-                          required 
-                        />
-                      </div>
-                      
-                      <div className="form-group">
-                        <label>Relación con el residente</label>
-                        <select 
-                          name="relationship"
-                          value={formData.relationship}
-                          onChange={handleInputChange}
-                          required
-                        >
-                          <option value="">Selecciona una opción</option>
-                          <option value="hijo/a">Hijo/a</option>
-                          <option value="nieto/a">Nieto/a</option>
-                          <option value="cónyuge">Cónyuge</option>
-                          <option value="hermano/a">Hermano/a</option>
-                          <option value="sobrino/a">Sobrino/a</option>
-                          <option value="otro familiar">Otro familiar</option>
-                          <option value="amigo/a">Amigo/a</option>
-                          <option value="tutor legal">Tutor legal</option>
-                        </select>
-                      </div>
-                      
-                      <div className="form-group">
-                        <label>Nivel de cuidado necesario</label>
-                        <select 
-                          name="careLevel"
-                          value={formData.careLevel}
-                          onChange={handleInputChange}
-                          required
-                        >
-                          <option value="">Selecciona el nivel de cuidado</option>
-                          <option value="autoválido">Autoválido (independiente)</option>
-                          <option value="asistencia leve">Asistencia leve</option>
-                          <option value="asistencia moderada">Asistencia moderada</option>
-                          <option value="por evaluar">Por evaluar</option>
-                        </select>
-                      </div>
-                      
-                      <div className="form-group">
-                        <label>Email</label>
-                        <input 
-                          type="email" 
-                          name="email"
-                          placeholder="tu-email@ejemplo.com" 
-                          value={formData.email}
-                          onChange={handleInputChange}
-                          required 
-                        />
-                      </div>
-                      
-                      <div className="form-group">
-                        <label>Teléfono / WhatsApp</label>
-                        <input 
-                          type="tel" 
-                          name="phone"
-                          placeholder="094 123 456" 
-                          value={formData.phone}
-                          onChange={handleInputChange}
-                          required 
-                        />
-                      </div>
+                  )}
+                  
+                  {submitStatus === 'error' && (
+                    <div className="form-message error">
+                      <span>❌ Hubo un error al enviar tu solicitud. Por favor, intentá nuevamente.</span>
                     </div>
-                    
-                    <div className="form-group full-width">
-                      <label>Fecha preferida para visitar (opcional)</label>
-                      <input 
-                        type="date" 
-                        name="preferredVisitDate"
-                        value={formData.preferredVisitDate}
-                        onChange={handleInputChange}
-                      />
-                    </div>
-                    
-                    <div className="form-group full-width">
-                      <label>Mensaje adicional</label>
-                      <textarea 
-                        name="message"
-                        placeholder="Cuéntanos sobre las necesidades específicas o cualquier pregunta que tengas..." 
-                        rows="4" 
-                        value={formData.message}
-                        onChange={handleInputChange}
-                        required
-                      ></textarea>
-                    </div>
-                    
-                    <button 
-                      type="submit" 
-                      className={`submit-btn ${isSubmitting ? 'submitting' : ''}`}
-                      disabled={isSubmitting}
+                  )}
+                  
+                  <div className="form-group">
+                    <input 
+                      type="text" 
+                      name="familyMemberName"
+                      placeholder="Tu nombre (familiar)" 
+                      value={formData.familyMemberName}
+                      onChange={handleInputChange}
+                      required 
+                    />
+                  </div>
+                  <div className="form-group">
+                    <input 
+                      type="text" 
+                      name="residentName"
+                      placeholder="Nombre del potencial residente" 
+                      value={formData.residentName}
+                      onChange={handleInputChange}
+                      required 
+                    />
+                  </div>
+                  <div className="form-group">
+                    <select 
+                      name="relationship"
+                      value={formData.relationship}
+                      onChange={handleInputChange}
+                      required
                     >
-                      {isSubmitting ? (
-                        <>
-                          <span>Enviando...</span>
-                          <span className="btn-icon">⏳</span>
-                        </>
-                      ) : (
-                        <>
-                          <span>Coordiná tu visita</span>
-                          <span className="btn-icon">→</span>
-                        </>
-                      )}
-                    </button>
-                  </form>
-                </div>
+                      <option value="">Relación con el residente</option>
+                      <option value="hijo/a">Hijo/a</option>
+                      <option value="nieto/a">Nieto/a</option>
+                      <option value="cónyuge">Cónyuge</option>
+                      <option value="hermano/a">Hermano/a</option>
+                      <option value="sobrino/a">Sobrino/a</option>
+                      <option value="otro familiar">Otro familiar</option>
+                      <option value="amigo/a">Amigo/a</option>
+                      <option value="tutor legal">Tutor legal</option>
+                    </select>
+                  </div>
+                  <div className="form-group">
+                    <select 
+                      name="careLevel"
+                      value={formData.careLevel}
+                      onChange={handleInputChange}
+                      required
+                    >
+                      <option value="">Nivel de cuidado necesario</option>
+                      <option value="autoválido">Autoválido (independiente)</option>
+                      <option value="asistencia leve">Asistencia leve</option>
+                      <option value="asistencia moderada">Asistencia moderada</option>
+                      <option value="por evaluar">Por evaluar</option>
+                    </select>
+                  </div>
+                  <div className="form-group">
+                    <input 
+                      type="date" 
+                      name="preferredVisitDate"
+                      placeholder="Fecha preferida para visitar" 
+                      value={formData.preferredVisitDate}
+                      onChange={handleInputChange}
+                    />
+                  </div>
+                  <div className="form-group">
+                    <input 
+                      type="email" 
+                      name="email"
+                      placeholder="Email" 
+                      value={formData.email}
+                      onChange={handleInputChange}
+                      required 
+                    />
+                  </div>
+                  <div className="form-group">
+                    <input 
+                      type="tel" 
+                      name="phone"
+                      placeholder="Teléfono/WhatsApp" 
+                      value={formData.phone}
+                      onChange={handleInputChange}
+                      required 
+                    />
+                  </div>
+                  <div className="form-group">
+                    <textarea 
+                      name="message"
+                      placeholder="Cuéntanos sobre las necesidades específicas o cualquier pregunta que tengas..." 
+                      rows="5" 
+                      value={formData.message}
+                      onChange={handleInputChange}
+                      required
+                    ></textarea>
+                  </div>
+                  <button 
+                    type="submit" 
+                    className={`submit-btn ${isSubmitting ? 'submitting' : ''}`}
+                    disabled={isSubmitting}
+                  >
+                    {isSubmitting ? (
+                      <>
+                        <span>Enviando...</span>
+                        <span className="btn-icon">⏳</span>
+                      </>
+                    ) : (
+                      <>
+                        <span>Coordiná tu visita</span>
+                        <span className="btn-icon">→</span>
+                      </>
+                    )}
+                  </button>
+                </form>
               </div>
             </div>
           </div>
