@@ -1,120 +1,155 @@
-## **🟣 1. Encabezado (Hero principal)**
+### **🟣 1. Hero principal (encabezado impactante)**
 
-**Título:** **Un espacio de tranquilidad y cuidado para tus seres más queridos.**
+- Imagen grande y cálida (persona mayor sonriendo o acompañado)
 
-**Subtítulo:** En Residencial Palermo combinamos atención profesional, privacidad y calidez, para brindar un entorno seguro, digno y humano.
+- Título emocional:\
+  &#x20;**“Un hogar donde tu ser querido se siente cuidado, respetado y acompañado.”**
 
-**Botón:** 🟢 _Coordiná una visita sin compromiso_
+- Subtítulo opcional:\
+  &#x20;“Ubicado en el corazón de Montevideo, con atención profesional y ambiente familiar.”
 
-***
-
-
-## **🟤 2. ¿Quiénes somos?**
-
-Residencial Palermo nace con la vocación de acompañar a los adultos mayores en una etapa de la vida que merece respeto, contención y verdadera calidad humana.
-
-Ubicados en un entorno accesible de Montevideo, nuestro hogar fue diseñado para brindar un equilibrio entre tranquilidad, cuidados profesionales y ambiente personalizado. Nos especializamos en recibir tanto personas autoválidas como aquellas que necesitan asistencia leve o moderada, siempre respetando sus tiempos y decisiones.
-
-Nuestro equipo está compuesto por profesionales comprometidos, con experiencia en geriatría, enfermería, fisioterapia y acompañamiento emocional. Pero por sobre todo, somos un grupo humano que prioriza el bienestar diario, el respeto mutuo y la cercanía con las familias.
-
-_En Palermo, cada persona es protagonista de su día a día._
+- Botón claro: **“Agendá tu visita”** / **“Hablá con nosotros por WhatsApp”**
 
 ***
 
 
-## **🟢 3. Nuestras instalaciones**
+### **🟤 2. ¿Quiénes somos?**
 
-Pensadas para favorecer la comodidad, el descanso y la seguridad, nuestras instalaciones ofrecen:
+- Breve historia y filosofía del residencial
 
-🏠 Habitaciones individuales y dobles, ventiladas y luminosas\
-&#x20;🛋️ Espacios comunes tranquilos para leer, conversar o descansar\
-&#x20;🌿 Patio interno con plantas y zona de aire libre\
-&#x20;🍽️ Comedor con menú adaptado a cada residente\
-&#x20;🛁 Baños adaptados con acceso seguro\
-&#x20;🛏️ Camas ortopédicas y asistencia si es requerida
+En Residencial Blanes abrimos nuestras puertas hace más de 10 años con un único propósito: ofrecer un hogar real y humano para los adultos mayores que necesitan compañía, cuidado y respeto en esta etapa de su vida.
 
-_Un entorno acogedor y privado, que brinda calma y contención._
+Fundado por una familia con vocación por el bienestar de las personas, Blanes nació como una casa de puertas abiertas, donde cada residente es tratado con cercanía, dignidad y profesionalismo. Sabemos que dejar a un ser querido en manos de otros no es una decisión fácil, por eso trabajamos cada día para ganarnos la confianza de las familias y brindar tranquilidad con hechos, no solo palabras.
 
-***
+Contamos con un equipo capacitado y comprometido que combina experiencia médica, atención personalizada y un profundo sentido humano. Cada rincón de nuestra casa está pensado para generar un ambiente cálido, seguro y activo, donde los mayores puedan sentirse acompañados y valorados.
 
+Hoy, después de más de una década de trabajo, seguimos creciendo con el mismo compromiso: cuidar como en casa, y estar presentes como una familia extendida.
 
-## **🔵 4. Servicios que ofrecemos**
-
-Ofrecemos una atención integral que abarca tanto el cuidado físico como emocional, respetando las particularidades de cada residente:
-
-- 👩‍⚕️ Enfermería y supervisión médica
-
-- 🍴 Alimentación casera adaptada
-
-- 💊 Administración de medicación
-
-- 🧼 Higiene diaria y asistencia personalizada
-
-- 🎵 Musicoterapia y estimulación cognitiva
-
-- 🧘‍♀️ Fisioterapia y movilidad asistida
-
-- 📖 Actividades recreativas adaptadas
-
-- 🧠 Acompañamiento emocional y conversación activa
-
-- 📍 Contacto fluido con la familia
-
-_Cuidar con sensibilidad, ese es nuestro mayor valor._
+- Imagen del equipo o del lugar
 
 ***
 
 
-## **🟡 5. ¿Por qué elegirnos?**
+### **🟢 3. Nuestras instalaciones**
 
-### **Porque la calidad de vida también se construye con pequeños gestos.**
+Residencial Blanes cuenta con espacios amplios, cómodos y adaptados a las necesidades de cada residente. Nuestro objetivo es que se sientan realmente en casa, con toda la seguridad y el confort necesarios.
 
-✅ Entorno silencioso y armonioso\
-&#x20;✅ Atención cercana y con seguimiento\
-&#x20;✅ Plan de actividades suaves y adaptadas\
-&#x20;✅ Comunicación directa con la familia\
-&#x20;✅ Flexibilidad en visitas y rutinas
+🏡 Habitaciones privadas y compartidas\
+&#x20;🍽️ Comedor con alimentos caseros y supervisión nutricional\
+&#x20;🌳 Espacios verdes y jardín interno\
+&#x20;🛋️ Salón de descanso y actividades recreativas\
+&#x20;🚻 Baños adaptados con accesibilidad total\
+&#x20;🛏️ Camas ortopédicas y mobiliario funcional
 
-_En Palermo, los días transcurren con calma, respeto y dignidad._
+_“Un entorno pensado para el bienestar físico y emocional de quienes más queremos.”_
 
-***
+- Galería con imágenes reales (habitaciones, comedor, sala común, jardín)
 
-
-## **🔴 6. Preguntas frecuentes**
-
-**¿Puedo visitar antes de tomar una decisión?** Claro que sí. Coordinamos visitas guiadas para que conozcas nuestras instalaciones y equipo.
-
-**¿Hay habitaciones privadas disponibles?** Sí. Contamos con habitaciones individuales y compartidas, según disponibilidad y preferencia.
-
-**¿Aceptan personas autoválidas?** Sí, y nos enfocamos en mantener su autonomía el mayor tiempo posible.
-
-**¿Qué incluye la tarifa mensual?** Estadía, comidas, atención de salud, higiene diaria, y acceso a todas las actividades.
-
-**¿Cómo se manejan las visitas familiares?** Con apertura y flexibilidad. Coordinamos horarios según lo que le haga bien al residente.
+* Si se puede, incluir recorrido en video o carrusel visual
 
 ***
 
 
-## **🟠 7. Testimonios**
+### **🔵 4. Servicios que ofrecemos**
 
-“Palermo fue la mejor decisión para mi abuela. Está tranquila, bien cuidada y siempre acompañada.”\
-&#x20;— **Lucía, nieta**
+En Residencial Blanes brindamos un cuidado integral que abarca lo físico, emocional y social, con un enfoque humano y personalizado.
 
-“Me sorprendió la calidez y el orden del lugar. Se nota el amor que hay en cada detalle.”\
-&#x20;— **Sergio, hijo de residente**
+- 👩‍⚕️ **Atención de enfermería 24 horas**
 
-“La paz del entorno y el trato del personal hicieron que mi madre se adaptara muy rápido.”\
-&#x20;— **Valeria, hija**
+- 🩺 **Supervisión médica periódica**
+
+- 🍽️ **Alimentación completa, casera y adaptada**
+
+- 💊 **Control de medicación diario**
+
+- 🧼 **Asistencia en higiene y cuidado personal**
+
+- 🎵 **Musicoterapia grupal**
+
+- 🧘‍♂️ **Fisioterapia y gimnasia suave**
+
+- 🎨 **Actividades recreativas y de estimulación cognitiva**
+
+- 🧘‍♀️ **Acompañamiento emocional y espiritual**
+
+- 🔒 **Ambiente seguro y adaptado para todas las edades**
+
+_Cuidamos a cada persona como nos gustaría que cuidaran a nuestros propios padres._
 
 ***
 
 
-## **🟣 8. Contacto y llamado a la acción**
+### **🟡 5. ¿Por qué elegirnos?**
 
-**¿Querés visitarnos?** Coordiná un recorrido personalizado y descubrí si este es el lugar adecuado para tu familiar.
+- ### **Porque no es solo un lugar: es un hogar.**
 
-📍 **Dirección:** \[Calle y número] – Montevideo\
-&#x20;📞 **Teléfono / WhatsApp:** \[09x xxx xxx]\
-&#x20;🕒 **Horarios de atención:** Lunes a viernes de 10 a 17 hs
+- ✅ Trato cálido, familiar y cercano\
+  &#x20;✅ Personal capacitado y comprometido\
+  &#x20;✅ Comunicación constante con la familia\
+  &#x20;✅ Instalaciones seguras y adaptadas\
+  &#x20;✅ Más de 10 años de experiencia cuidando con amor
 
-**📩 Botón de contacto:** _“Coordiná tu visita”_
+* _En Blanes no cuidamos pacientes, cuidamos personas._
+
+***
+
+\
+
+
+
+### **🔴 6. Preguntas frecuentes**
+
+- **¿Puedo visitar antes de decidir?** Sí, podés agendar una visita en el día y horario que te quede más cómodo. Nos encantará recibirte.
+
+* **¿Qué tipo de personas pueden ingresar?** Recibimos adultos mayores autoválidos o con dependencia leve o moderada. Adaptamos el cuidado a cada caso.
+
+- **¿Puedo visitar a mi familiar todos los días?** Sí, nuestras visitas son abiertas dentro del horario definido, con mucha flexibilidad y respeto por los vínculos.
+
+* **¿Qué incluye la estadía?** Incluye alojamiento, 4 comidas diarias, higiene, medicación, atención de salud y actividades recreativas.
+
+* **¿Tienen médico en el lugar?** Contamos con control médico regular y asistencia de enfermería permanente. Derivamos a especialistas cuando es necesario.
+
+***
+
+
+### **🟠 7. Testimonios**
+
+- “Mi madre volvió a sonreír desde que está en Blanes. No solo la cuidan bien, la hacen sentir querida.”\
+  &#x20;— **Ana, hija de una residente**
+
+- “La tranquilidad que tengo sabiendo que mi padre está en buenas manos no tiene precio.”\
+  &#x20;— **Gustavo, familiar**
+
+- “El equipo es excelente, muy humano y dedicado. Se nota que trabajan con el corazón.”\
+  &#x20;— **María Elena, sobrina**
+
+***
+
+
+### **🟣 8. Llamado a la acción final**
+
+- **¿Querés conocer Residencial Blanes?\
+  &#x20;Te invitamos a visitarnos y descubrir por qué tantas familias confían en nosotros.**
+
+* **📍 Dirección: \[Calle y número] – Montevideo\
+  &#x20;📞 Teléfono / WhatsApp: \[094 xxx xxx]\
+  &#x20;🕒 Horarios de atención: Lunes a sábado de 9 a 18 hs**
+
+* **📩 Botón de contacto: _“Agendá tu visita sin compromiso”_**
+
+****
+
+***
+
+
+### **⚪ 9. Footer**
+
+- Dirección exacta
+
+- Teléfono y WhatsApp directo
+
+- Horario de atención
+
+- Links a redes sociales (si las hay)
+
+- Logo

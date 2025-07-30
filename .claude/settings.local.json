@@ -5,11 +5,7 @@
       "Bash(npm start)",
       "Bash(pkill:*)",
       "Bash(grep:*)",
-      "Bash(rg:*)",
-      "Bash(del /Q *)",
-      "Bash(rm:*)",
-      "Bash(npm run build:*)",
-      "Bash(node:*)"
+      "Bash(rg:*)"
     ],
     "deny": []
   }
