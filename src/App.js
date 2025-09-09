@@ -17,6 +17,8 @@ function App() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
+  const [showCookieBanner, setShowCookieBanner] = useState(false);
+  const [showTermsModal, setShowTermsModal] = useState(false);
 
   const productImages = [
     { src: "/images/bel-mangiare-images/IMG-20250716-WA0009.jpg", alt: "Pastas artesanales Bel Mangiare" },
@@ -34,6 +36,18 @@ function App() {
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  // Check for cookie consent
+  useEffect(() => {
+    const cookieConsent = localStorage.getItem('belMangiare_cookieConsent');
+    if (!cookieConsent) {
+      // Show banner after 2 seconds
+      const timer = setTimeout(() => {
+        setShowCookieBanner(true);
+      }, 2000);
+      return () => clearTimeout(timer);
+    }
   }, []);
 
   // Intersection Observer for scroll animations
@@ -169,6 +183,20 @@ function App() {
       ...prev,
       [name]: value
     }));
+  };
+
+  const acceptCookies = () => {
+    localStorage.setItem('belMangiare_cookieConsent', 'accepted');
+    localStorage.setItem('belMangiare_cookieConsentDate', new Date().toISOString());
+    setShowCookieBanner(false);
+  };
+
+  const openTermsModal = () => {
+    setShowTermsModal(true);
+  };
+
+  const closeTermsModal = () => {
+    setShowTermsModal(false);
   };
 
   const handleSubmit = async (e) => {
@@ -610,7 +638,7 @@ function App() {
                   <div className="contact-item animate-item">
                     <div className="contact-icon">✉️</div>
                     <h4>Email</h4>
-                    <p>ventas@belmangiare.com</p>
+                    <p>belmangiarepastas.uy@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -734,6 +762,14 @@ function App() {
             </div>
             <div className="footer-contact">
               <p>&copy; 2025 Bel Mangiare. Todos los derechos reservados.</p>
+              <p>
+                <button 
+                  className="footer-link" 
+                  onClick={openTermsModal}
+                >
+                  Términos y Condiciones
+                </button>
+              </p>
             </div>
           </div>
         </div>
@@ -779,6 +815,81 @@ function App() {
           <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.531 3.488"/>
         </svg>
       </a>
+
+      {/* Cookie Consent Banner */}
+      {showCookieBanner && (
+        <div className="cookie-banner">
+          <div className="cookie-content">
+            <div className="cookie-text">
+              <i className="fas fa-cookie-bite"></i>
+              <span>
+                Utilizamos cookies para mejorar tu experiencia de navegación y analizar el tráfico del sitio. 
+                Al continuar navegando, aceptas nuestro uso de cookies.
+              </span>
+            </div>
+            <div className="cookie-actions">
+              <button className="cookie-btn secondary" onClick={openTermsModal}>
+                Más información
+              </button>
+              <button className="cookie-btn primary" onClick={acceptCookies}>
+                Aceptar cookies
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Terms and Conditions Modal */}
+      {showTermsModal && (
+        <div className="modal-overlay" onClick={closeTermsModal}>
+          <div className="terms-modal" onClick={(e) => e.stopPropagation()}>
+            <div className="terms-header">
+              <h2>Términos y Condiciones</h2>
+              <button className="modal-close" onClick={closeTermsModal}>×</button>
+            </div>
+            <div className="terms-content">
+              <h3>1. Información General</h3>
+              <p>Bel Mangiare es una empresa dedicada a la elaboración y venta de pastas frescas artesanales en Montevideo, Uruguay. Estos términos y condiciones regulan el uso de nuestro sitio web y los servicios que ofrecemos.</p>
+              
+              <h3>2. Uso de Cookies</h3>
+              <p>Nuestro sitio web utiliza cookies para:</p>
+              <ul>
+                <li>Mejorar la experiencia de navegación del usuario</li>
+                <li>Analizar el tráfico del sitio web</li>
+                <li>Recordar tus preferencias de navegación</li>
+                <li>Facilitar el funcionamiento de formularios de contacto</li>
+              </ul>
+              
+              <h3>3. Información Personal</h3>
+              <p>La información proporcionada a través de nuestros formularios de contacto se utiliza únicamente para:</p>
+              <ul>
+                <li>Responder a consultas comerciales</li>
+                <li>Enviar cotizaciones personalizadas</li>
+                <li>Comunicación relacionada con pedidos</li>
+              </ul>
+              <p>No compartimos tu información personal con terceros sin tu consentimiento explícito.</p>
+              
+              <h3>4. Productos y Servicios</h3>
+              <p>Bel Mangiare se dedica a la venta al por mayor de pastas frescas artesanales. Los precios y disponibilidad están sujetos a cambios sin previo aviso. Las cotizaciones se realizan de manera personalizada según volumen y destino.</p>
+              
+              <h3>5. Contacto</h3>
+              <p>Para consultas sobre estos términos y condiciones, puedes contactarnos a través de:</p>
+              <ul>
+                <li>Email: belmangiarepastas.uy@gmail.com</li>
+                <li>WhatsApp: 098 372 261</li>
+                <li>Dirección: Montevideo, Uruguay</li>
+              </ul>
+              
+              <p className="terms-update"><strong>Última actualización:</strong> Enero 2025</p>
+            </div>
+            <div className="terms-actions">
+              <button className="cookie-btn primary" onClick={closeTermsModal}>
+                Entendido
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
