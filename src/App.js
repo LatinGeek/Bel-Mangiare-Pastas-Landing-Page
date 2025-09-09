@@ -379,62 +379,79 @@ function App() {
           <div className="container">
             <h2 className="animate-on-scroll animate-item">Nuestros productos</h2>
             <p className="facilities-intro animate-on-scroll animate-item">Elaboramos pasta fresca todos los días, con materia prima de primera y recetas italianas que combinan tradición con el paladar local. Nuestras opciones más solicitadas por comercios y restaurantes:</p>
-            <div className="facilities-features animate-on-scroll">
-              <div className="feature-item animate-item">
-                <img src="/icons/gnocci.png" alt="Ñoquis" className="feature-icon" />
-                <span>Ñoquis de papa</span>
+            <div className="product-cards-grid animate-on-scroll">
+              <div className="product-card animate-item" style={{backgroundImage: 'url(/images/Productos/gnoccis-de-papa.jpg)'}}>
+                <div className="product-card-overlay">
+                  <h3>Ñoquis de papa</h3>
+                </div>
               </div>
-              <div className="feature-item animate-item">
-                <img src="/icons/ravioles.png" alt="Ravioles" className="feature-icon" />
-                <span>Ravioles: verdura, ricota, jamón y queso, pollo</span>
+              <div className="product-card animate-item" style={{backgroundImage: 'url(/images/Productos/ravioles.jpeg)'}}>
+                <div className="product-card-overlay">
+                  <h3>Ravioles</h3>
+                  <p>verdura, ricota, jamón y queso, pollo</p>
+                </div>
               </div>
-              <div className="feature-item animate-item">
-                <img src="/icons/tallarines.png" alt="Tallarines" className="feature-icon" />
-                <span>Tallarines (yema, morron, espinaca y albahaca)</span>
+              <div className="product-card animate-item" style={{backgroundImage: 'url(/images/Productos/tallarines.PNG)'}}>
+                <div className="product-card-overlay">
+                  <h3>Tallarines</h3>
+                  <p>yema, morrón, espinaca y albahaca</p>
+                </div>
               </div>
-              <div className="feature-item animate-item">
-                <img src="/icons/sorrentino.png" alt="Sorrentinos" className="feature-icon" />
-                <span>Sorrentinos: jamón y queso, capresse, ricota y nuez, verdura</span>
+              <div className="product-card animate-item" style={{backgroundImage: 'url(/images/Productos/sorrentinos.jpg)'}}>
+                <div className="product-card-overlay">
+                  <h3>Sorrentinos</h3>
+                  <p>jamón y queso, capresse, ricota y nuez, verdura</p>
+                </div>
               </div>
-              <div className="feature-item animate-item">
-                <img src="/icons/empanada.png" alt="Empanadas" className="feature-icon" />
-                <span>Tapas de empanadas</span>
+              <div className="product-card animate-item" style={{backgroundImage: 'url(/images/Productos/empanadas.jpeg)'}}>
+                <div className="product-card-overlay">
+                  <h3>Tapas de empanadas</h3>
+                </div>
               </div>
-              <div className="feature-item animate-item">
-                <img src="/icons/canelones.png" alt="Canelones" className="feature-icon" />
-                <span>Canelones: Humita, verdura, carne, mixtos</span>
+              <div className="product-card animate-item" style={{backgroundImage: 'url(/images/Productos/Canelones.jpg)'}}>
+                <div className="product-card-overlay">
+                  <h3>Canelones</h3>
+                  <p>Humita, verdura, carne, mixtos</p>
+                </div>
               </div>
             </div>
             
             <h2 className="animate-on-scroll animate-item" style={{marginTop: '4rem'}}>Tucos y salsas</h2>
             <p className="facilities-intro animate-on-scroll animate-item">Complementá tus pastas con nuestras salsas artesanales, elaboradas con ingredientes frescos y recetas tradicionales que realzan el sabor de cada plato:</p>
-            <div className="facilities-features animate-on-scroll">
-              <div className="feature-item animate-item">
-                <img src="/icons/salsa.png" alt="Tuco de Carne" className="feature-icon" />
-                <span>Tuco de Carne</span>
+            <div className="product-cards-grid animate-on-scroll">
+              <div className="product-card animate-item" style={{backgroundImage: 'url(/images/Salsas/tuco-de-carne.webp)'}}>
+                <div className="product-card-overlay">
+                  <h3>Tuco de Carne</h3>
+                </div>
               </div>
-              <div className="feature-item animate-item">
-                <img src="/icons/salsa.png" alt="Tuco de pollo" className="feature-icon" />
-                <span>Tuco de pollo</span>
+              <div className="product-card animate-item" style={{backgroundImage: 'url(/images/Salsas/tuco-de-pollo.jpg)'}}>
+                <div className="product-card-overlay">
+                  <h3>Tuco de pollo</h3>
+                </div>
               </div>
-              <div className="feature-item animate-item">
-                <img src="/icons/salsa.png" alt="Salsa pomarola" className="feature-icon" />
-                <span>Salsa pomarola</span>
+              <div className="product-card animate-item" style={{backgroundImage: 'url(/images/Salsas/salsa-pomarola.jpg)'}}>
+                <div className="product-card-overlay">
+                  <h3>Salsa pomarola</h3>
+                </div>
               </div>
-              <div className="feature-item animate-item">
-                <img src="/icons/salsa.png" alt="Salsa caruso" className="feature-icon" />
-                <span>Salsa caruso</span>
+              <div className="product-card animate-item" style={{backgroundImage: 'url(/images/Salsas/salsa-caruso.webp)'}}>
+                <div className="product-card-overlay">
+                  <h3>Salsa caruso</h3>
+                </div>
               </div>
-              <div className="feature-item animate-item">
-                <img src="/icons/salsa.png" alt="Pesto" className="feature-icon" />
-                <span>Pesto</span>
+              <div className="product-card animate-item" style={{backgroundImage: 'url(/images/Salsas/salsa-pesto.webp)'}}>
+                <div className="product-card-overlay">
+                  <h3>Pesto</h3>
+                </div>
               </div>
-              <div className="feature-item animate-item">
-                <img src="/icons/salsa.png" alt="Salsa de queso" className="feature-icon" />
-                <span>Salsa de queso</span>
+              <div className="product-card animate-item" style={{backgroundImage: 'url(/images/Salsas/salsa-de-queso.webp)'}}>
+                <div className="product-card-overlay">
+                  <h3>Salsa de queso</h3>
+                </div>
               </div>
             </div>
             
+            <h2 className="animate-on-scroll animate-item" style={{marginTop: '4rem'}}>Galería</h2>
             <div className="gallery-grid animate-on-scroll">
               {productImages.map((image, index) => (
                 <div key={index} className="gallery-item animate-item" onClick={() => openModal(index)}>
@@ -458,12 +475,12 @@ function App() {
                 <h2 className="animate-item">¿A quiénes vendemos?</h2>
                 <p className="services-intro animate-item">Aunque somos una fábrica, nuestro espíritu sigue siendo casero. Nos especializamos en venta al por mayor, brindando calidad y cumplimiento a diferentes tipos de negocios:</p>
                 <ul>
-                  <li><span className="service-icon">🏥</span> Residenciales y hogares de adultos mayores</li>
-                  <li><span className="service-icon">👥</span> Consumidor final</li>
-                  <li><span className="service-icon">🍽️</span> Restaurantes y rotiserías</li>
-                  <li><span className="service-icon">🛒</span> Almacenes y supermercados</li>
-                  <li><span className="service-icon">🧊</span> Tiendas de congelados y productos gourmet</li>
-                  <li><span className="service-icon">🚛</span> Distribuidores y revendedores</li>
+                  <li><i className="fas fa-building service-icon"></i> Residenciales y hogares de adultos mayores</li>
+                  <li><i className="fas fa-users service-icon"></i> Consumidor final</li>
+                  <li><i className="fas fa-utensils service-icon"></i> Restaurantes y rotiserías</li>
+                  <li><i className="fas fa-shopping-cart service-icon"></i> Almacenes y supermercados</li>
+                  <li><i className="fas fa-snowflake service-icon"></i> Tiendas de congelados y productos gourmet</li>
+                  <li><i className="fas fa-truck service-icon"></i> Distribuidores y revendedores</li>
                 </ul>
                 <p className="services-quote">"Nuestros clientes eligen Bel Mangiare porque saben que el sabor, la textura y la presentación importan. Proveemos a negocios, pero cocinamos como si fuera para nuestra familia."</p>
               </div>
@@ -500,27 +517,27 @@ function App() {
             <h3 className="animate-on-scroll animate-item">Por qué elegir Bel Mangiare</h3>
             <div className="benefits-grid animate-on-scroll">
               <div className="benefit-item animate-item">
-                <img src="/icons/checked.png" alt="Check" className="benefit-icon" />
+                <i className="fas fa-check-circle benefit-icon"></i>
                 <span>Producción artesanal con maquinaria adaptada</span>
               </div>
               <div className="benefit-item animate-item">
-                <img src="/icons/checked.png" alt="Check" className="benefit-icon" />
+                <i className="fas fa-check-circle benefit-icon"></i>
                 <span>Sabor casero garantizado</span>
               </div>
               <div className="benefit-item animate-item">
-                <img src="/icons/checked.png" alt="Check" className="benefit-icon" />
+                <i className="fas fa-check-circle benefit-icon"></i>
                 <span>Ingredientes frescos y de alta calidad</span>
               </div>
               <div className="benefit-item animate-item">
-                <img src="/icons/checked.png" alt="Check" className="benefit-icon" />
+                <i className="fas fa-check-circle benefit-icon"></i>
                 <span>Cumplimiento en tiempo y forma</span>
               </div>
               <div className="benefit-item animate-item">
-                <img src="/icons/checked.png" alt="Check" className="benefit-icon" />
+                <i className="fas fa-check-circle benefit-icon"></i>
                 <span>Atención personalizada y directa</span>
               </div>
               <div className="benefit-item animate-item">
-                <img src="/icons/checked.png" alt="Check" className="benefit-icon" />
+                <i className="fas fa-check-circle benefit-icon"></i>
                 <span>Pedidos flexibles y sin complicaciones</span>
               </div>
             </div>

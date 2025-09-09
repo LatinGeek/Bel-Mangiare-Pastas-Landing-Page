@@ -838,6 +838,88 @@ body {
   margin-bottom: 60px;
 }
 
+/* Product Cards Grid - Modern Design */
+.product-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.product-card {
+  position: relative;
+  height: 300px;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.product-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, 
+    rgba(28, 45, 115, 0.7) 0%, 
+    rgba(28, 45, 115, 0.4) 50%, 
+    rgba(232, 124, 38, 0.6) 100%);
+  opacity: 0.8;
+  transition: opacity 0.4s ease;
+  z-index: 1;
+}
+
+.product-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.product-card:hover::before {
+  opacity: 0.9;
+}
+
+.product-card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  padding: 40px 25px 25px 25px;
+  color: white;
+  z-index: 2;
+  transform: translateY(10px);
+  transition: transform 0.4s ease;
+}
+
+.product-card:hover .product-card-overlay {
+  transform: translateY(0);
+}
+
+.product-card-overlay h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+  line-height: 1.2;
+}
+
+.product-card-overlay p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  line-height: 1.4;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+}
+
 .feature-item {
   display: flex;
   align-items: center;
@@ -968,12 +1050,23 @@ body {
   font-size: 1.1rem;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   gap: 15px;
+}
+
+.services-text li .service-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  flex-shrink: 0;
 }
 
 .service-icon {
   font-size: 1.5rem;
   min-width: 30px;
+  color: var(--primary-orange);
+  margin-right: 5px;
 }
 
 .services-quote {
@@ -1080,8 +1173,9 @@ body {
 
 .benefit-icon {
   font-size: 1.5rem;
-  color: #503229;
+  color: var(--primary-orange);
   min-width: 25px;
+  margin-right: 5px;
 }
 
 .tagline {
@@ -1695,8 +1789,27 @@ body {
   }
 
   .testimonials-grid,
-  .facilities-features {
+  .facilities-features,
+  .product-cards-grid {
     grid-template-columns: 1fr;
+  }
+
+  .product-card {
+    height: 250px;
+    border-radius: 12px;
+  }
+
+  .product-card-overlay {
+    padding: 30px 20px 20px 20px;
+  }
+
+  .product-card-overlay h3 {
+    font-size: 1.5rem;
+    margin-bottom: 6px;
+  }
+
+  .product-card-overlay p {
+    font-size: 0.9rem;
   }
 
   /* Benefits section as item list on mobile */
@@ -1923,6 +2036,17 @@ section.animate-in {
 .feature-item.animate-item.animate-in {
   transform: translateY(0);
   filter: blur(0);
+}
+
+.product-card.animate-item {
+  opacity: 0;
+  transform: translateY(30px) scale(0.95);
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.product-card.animate-item.animate-in {
+  opacity: 1;
+  transform: translateY(0) scale(1);
 }
 
 /* Stagger animations for better effect */
