@@ -870,7 +870,7 @@ function App() {
               <p>No compartimos tu información personal con terceros sin tu consentimiento explícito.</p>
               
               <h3>4. Productos y Servicios</h3>
-              <p>Bel Mangiare se dedica a la venta al por mayor de pastas frescas artesanales. Los precios y disponibilidad están sujetos a cambios sin previo aviso. Las cotizaciones se realizan de manera personalizada según volumen y destino.</p>
+              <p>Bel Mangiare se dedica a la venta al por mayor y al por menor de pastas frescas artesanales. Los precios y disponibilidad están sujetos a cambios sin previo aviso. Las cotizaciones se realizan de manera personalizada según volumen y destino.</p>
               
               <h3>5. Contacto</h3>
               <p>Para consultas sobre estos términos y condiciones, puedes contactarnos a través de:</p>
